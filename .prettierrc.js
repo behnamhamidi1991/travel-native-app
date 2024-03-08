@@ -3,5 +3,12 @@ module.exports = {
   bracketSameLine: true,
   bracketSpacing: false,
   singleQuote: true,
-  trailingComma: 'all',
+  // trailingComma: 'all',
+  'prettier/prettier': [
+    'error',
+    {
+      singleQuote: true,
+      parser: 'flow',
+    },
+  ],
 };
