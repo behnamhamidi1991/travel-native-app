@@ -1,13 +1,13 @@
 import React from 'react';
 
-import {View, Text, SafeAreaView} from 'react-native';
+import {View, Text, SafeAreaView, ScrollView} from 'react-native';
 
 function App() {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Hello World!</Text>
-      </View>
+      <ScrollView>
+        <Text>App</Text>
+      </ScrollView>
     </SafeAreaView>
   );
 }
